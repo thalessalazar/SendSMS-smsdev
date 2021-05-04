@@ -1,0 +1,27 @@
+{
+  "name": "sendsms-smsdev",
+  "version": "1.0.0",
+  "description": "Enviando SMS pela plataforma SMSDEV",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thalessalazar/SendSMS-smsdev.git"
+  },
+  "author": "Thales Salazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thalessalazar/SendSMS-smsdev/issues"
+  },
+  "homepage": "https://github.com/thalessalazar/SendSMS-smsdev#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "query-string": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
