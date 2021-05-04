@@ -7,17 +7,17 @@ const apiAxios = axios.create({
     baseURL: 'http://209.133.205.2/painel/api.ashx'
 })
 
-const user = "5399925-0139";
-const password = "355135;"
+const user = "";
+const password = ";"
 
 //enviando sms
 apiAxios.get('', {
     params: {
         action: 'sendsms',
-        lgn: '53999250139',
-        pwd: '355135',
+        lgn: '',
+        pwd: '',
         msg: 'Eae vagabunda',
-        numbers: '53999697505'
+        numbers: ''
     }
 }).then(response => {
     console.log(response);
